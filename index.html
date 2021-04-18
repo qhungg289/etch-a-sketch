@@ -3,13 +3,20 @@
     <head>
         <meta charset="utf-8">
         <title>Etch a Sketch</title>
+        <link rel="icon" type="image/png" href="favicon/pen.png">
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Etch a Sketch</h1>
-        <div id="container"></div>
-        <script type="text/javascript" src="js/script.js"></script>
+        <div id="main-container">
+            <h1>Etch a Sketch</h1>
+            <div id="button-container">
+                <button type="button" class="button" id="clear-button">Clear</button>
+                <button type="button" class="button" id="grid-size">Change grid size</button>
+            </div>
+            <div id="grid-container"></div>
+            <script type="text/javascript" src="js/script.js"></script>
+        </div>
     </body>
 </html>

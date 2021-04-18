@@ -1,37 +1,42 @@
-:root{
-    --grid-rows: 1;
-    --grid-cols: 1;
-}
+
 body{
     display: flex;
     justify-content: center;
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
-    position: relative;
-    right: 40px;
-    top: 50px;
-    font-size: 50px;
+    font-size: 3.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-weight: bold;
 }
 
-#container{
-    width: min-content;
-    height: min-content;
+#grid-container{
+    width: 416px;
+    height: 416px;
     display: grid;
     grid-gap: 0;
-    grid-template-rows: repeat(var(--grid-rows), 1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.button{
+    padding: .8rem;
+    font-size: 1rem;
+    border-radius: 9px;
+    margin-bottom: 1.4rem;
+    margin-right: 1rem;
+}
+
+.button:hover{
+    background-color: #d9d9d9;
+}
+
+.button:active{
+    background-color: #cfcfcf;
 }
 
 .grid-item{
-    border-radius: 5px;
-    padding: 1em;
     border: 1px solid black;
-    text-align: center;
-    width: 1em;
-    height: 1em;
-}
-
-.hover{
-    background-color: aquamarine;
 }
