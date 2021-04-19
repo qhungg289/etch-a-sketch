@@ -19,13 +19,15 @@ h1{
     width: 416px;
     height: 416px;
     display: grid;
+    border: 5px solid #3B4252;
+    border-radius: 9px;
 }
 
 .button{
     padding: .8rem;
     font-size: 1rem;
     border-radius: 9px;
-    margin-bottom: 1.4rem;
+    margin-bottom: 2.2rem;
     margin-right: 1rem;
     background-color: #2E3440;
     border: 2px solid #3B4252;
@@ -36,8 +38,4 @@ h1{
 .button:hover{
     border: 2px solid #8FBCBB;
     color: #8FBCBB;
-}
-
-.grid-item{
-    border: 1px solid #E5E9F0;
 }
