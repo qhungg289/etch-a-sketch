@@ -19,8 +19,12 @@ h1{
     width: 416px;
     height: 416px;
     display: grid;
-    border: 5px solid #3B4252;
+    border: 8px solid #3B4252;
     border-radius: 9px;
+}
+
+.grid-item{
+    transition: 0.15s;
 }
 
 .button{
