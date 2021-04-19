@@ -44,7 +44,7 @@ function changeSize() {
 }
 
 function changeBgColor(elem) {
-    elem.style.backgroundColor = "aquamarine";
+    elem.style.backgroundColor = "#81A1C1";
 }
 
 function removeGridElement() {
