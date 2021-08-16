@@ -1,7 +1,9 @@
-# etch-a-sketch
+# etch-a-sketch ✏
 
-Etch a Sketch project for The Odin Project.
+This was made for learning purpose at **The Odin Project**.
 
-![Screenshot](https://i.imgur.com/1DCK38g.png)
+[Live demo](https://qhungg289.github.io/etch-a-sketch/).
 
-[Live preview](https://qhungg289.github.io/etch-a-sketch/).
+**Preview**:
+
+![Screenshot](./asset/readme-etch-a-sketch.png)
